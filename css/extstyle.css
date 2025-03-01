@@ -1,0 +1,100 @@
+.skipMC {
+  position: absolute;
+  left: -1000px;
+  top: -1000px
+  }
+
+.skipMC:focus{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin: 20px;
+
+}
+
+.cabecero{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-around;
+  
+}
+
+.cabecero img{
+  width: 100px;
+  margin: auto;
+}
+
+.cabecero h1{
+  padding: auto;
+  text-align: center;
+}
+
+.cintillo{
+  background-color: rgb(1, 1, 206);
+  height: 50px;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+
+nav a{
+  color: rgb(255, 255, 158);
+  margin: auto;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+nav a:hover{
+  color: rgb(253, 236, 0);
+  margin: auto;
+  text-decoration: none;
+  font-weight: bolder;
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  background-color: darkblue;
+}
+
+li img{
+  border: solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  padding: 1px;
+  border-color: rgb(160 160 160);
+}
+
+.photos-grid{
+  display: inline-grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 3px;
+
+}
+
+.grid-element{
+  border-style: solid;
+  border-color: rgb(48, 48, 48);
+  border-width: 2px;
+  margin: 5px;
+}
+
+.grid-element img{
+  width: 95%;
+}
+
+.grid-element p{
+  text-align: center;
+  font-family: fantasy;
+  margin-bottom: 0px;
+}
+
+.areas-list li:nth-child(2n+1){
+  background-color: rgb(245, 245, 244);
+}
